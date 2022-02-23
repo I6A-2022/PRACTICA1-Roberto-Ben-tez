@@ -1,107 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<HEAD>
-    <title>Pagina de Roberto</title>
-    <style>
-    #IdSamanta{color:darkorange;
-    }
-    .idZagitl{color: darkseagreen;
-    }
-    body{background-color: honeydew;
-    }
-    li {color:lightblue
-    }
-    ul strong li{color: lightseagreen;
-    }
-    ol li{color:lightcoral;
-    }
-    ol h2{color: lightslategrey;
-    }
-    ol strong{color: rgb(42, 70, 42);
-    }
-    .IdInstrucción{color: rgb(156, 53, 53);
-    }
-    #idCSS{color: mediumorchid;}
-    ol h3{color: black;}
-    /*deseh - - - - -
-    dotted . . . . .
-    solid ________*/
-    table, th, td {
-  border: 2px solid rgb(201, 18, 18);
-  border-collapse: collapse;} 
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica 1 - Tema 1 - Roberto Benítez</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ITVO</h1>
-        <ul><strong>
-        <li>KEVIN</li>
-        <li>KATIA</li>
-        <li id="IdSamanta">SAMANTA</li>
-        <li id="IdSamanta">BELEN</li>
-        <li class="idZagitl">Zagitl</li>    
-        </strong>   
+  <div id="contenedor" >
+    <header>
+      <h1>BIENVENIDO A MI PAGINA </h1>
+    </header>
+    <nav>
+    <ul>
+      <li><a href="index.html"> Inicio</li></a>
+      <li><a target="_blank" href="https://github.com/RoberSlimp"> Mi perfil GitHub</li></a>
+      <li><a href="https://www.google.com/"> Acerca de</li></a>
+      <li><a target="blank" href="https://www.instagram.com/"> Compartir</li></a>
     </ul>
-    <ol>
-        <li>MILANESA</li>
-        <li>COLORADITO</li>
-        <li>ALITAS</li>
-        <li>CALDO</li>
-    </ol>
-    <h1><ul>BIENVENIDO AL EJERCICIO</h1>
-    <p><strong>En este ejercicio aprenderas CSS</strong></p>
-    <h2><li>TEMA 1</h2></li>
-    <p class="IdInstrucción">instrucción a HTML y CSS</p>
-    <h2><li>TEMA 2</h2></li>
-    <p class="IdInstrucción">Introduccion <strong id="idCSS">CSS</strong></p>
-    <h3<li>TEMA 3</h3></li>
-    <p>Introduccion JS</p>
-    </ul>   
+  </nav>
+  <div class="componerSalto"></div>
+  <section id="contenido">
+    <article>
+      <h2>Tema 1</h2>
+      <p>Introducción</p>
+    </article>
+    <article>
+      <h2>Tema 2</h2>
+      <p>Descripción del tema</p>
+    </article>
+    <article>
+      <h2>Tema 3</h2>
+      <p>Descripción del tema</p>
+    </article>
+    <article>
+      <h2>Tema 4</h2>
+      <p>Finalizar</p>
+    </article>
+  </section>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15265.675352806918!2d-96.76010655!3d16.95393605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c717a0b71d5361%3A0x9855e9ff8543ec9c!2sBotanas%20y%20abarrotes!5e0!3m2!1sen!2smx!4v1645116060555!5m2!1sen!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <table style="float:right">
-        <tr>
-          <th>NOMBRE</th>
-          <th>CRUP</th>
-          <th>TELEFONO</th>
-        </tr>
-        <tr>
-          <td>KEVIN</td>
-          <td>SAN4534INI</td>
-          <td>212931273</td>
-        </tr>
-      </table>
-      <table style="float:left">
-        <tr>
-          <th>NOMBRE</th>
-          <th>CRUP</th>
-          <th>TELEFONO</th>
-        </tr>
-        <tr>
-          <td>KEVIN</td>
-          <td>SAN4534INI</td>
-          <td>212931273</td>
-        </tr>
-      </table>
-      <form>
-      <input type="checkbox">
-      <input type="text">
-      <input type="color">
-      <input type="date">
-      <input type="email">
+  <aside>
+    <h2>Barra Lateral</h2>
+    <form>
       <input type="search">
-      <input type="file">
-      <input type="datetime-local">
-      <input type="radios">
-      </form>
-</body>
+      <input value="Buscar" type="button">
+    </form>
+  </aside>
+  <div class="componerSalto"></div>
+  <footer>
+    &copy; 2022 - ROBERTO KEVIN BENÍTEZ PEÑA 
+  </footer>
+  </div>
 </body>
 </html>
