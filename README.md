@@ -6,4 +6,5 @@ Mi primera página sobre como hacer una página web en HTML
 - luis
 
 
-![foto](https://user-images.githubusercontent.com/98972071/157711427-24c4d818-6543-4b22-9270-17d1f0e5dc4d.png)
+![2022-03-22w](https://user-images.githubusercontent.com/98972071/159529012-e26f6a84-9f57-4494-b46e-4656c7fc171b.png)
+
